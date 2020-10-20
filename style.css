@@ -244,6 +244,9 @@ a {
 }
 
 @media (min-width: 110px) and (max-width: 855px) {
+    .wrapper {
+        padding-left: 0;
+    }
     .wrapper::before {
         height: 50vh;
     }
@@ -274,6 +277,10 @@ a {
 }
 
 @media (min-width: 110px) and (max-width: 565px) {
+
+    .wrapper {
+        padding-left: 0;
+    }
     .wrapper::before {
         height: 50vh;
     }
@@ -289,7 +296,7 @@ a {
         float: right;
     }
     .main_button {
-        margin-left: 12%;
+        margin-left: 21%;
     }
     #true {
         margin: 46px 0;
